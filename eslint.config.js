@@ -35,4 +35,10 @@ export default [
       "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
     },
   },
+  {
+    files: ["vite.config.js"],
+    languageOptions: {
+      globals: globals.node,
+    },
+  },
 ];
