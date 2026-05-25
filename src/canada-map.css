@@ -47,6 +47,7 @@
 .cis-map-star {
   background: rgba(255, 255, 255, 0.98);
   color: #1f5fd4;
+  transform: translate(-50%, -50%);
   box-shadow:
     0 0 0 7px rgba(31, 111, 255, 0.14),
     0 14px 28px rgba(6, 27, 59, 0.18);
@@ -54,6 +55,7 @@
 
 .cis-map-star:hover,
 .cis-map-star:focus-visible {
+  transform: translate(-50%, calc(-50% - 1px)) scale(1.05);
   box-shadow:
     0 0 0 8px rgba(200, 145, 34, 0.22),
     0 14px 30px rgba(6, 27, 59, 0.2);
@@ -65,13 +67,13 @@
   bottom: 1rem;
 }
 
-.cis-pin-vancouver { left: 12%; top: 57%; }
-.cis-pin-calgary { left: 26%; top: 56%; }
-.cis-pin-winnipeg { left: 42%; top: 58%; }
-.cis-pin-toronto { left: 69%; top: 68%; }
-.cis-pin-ottawa { left: 74%; top: 65%; }
-.cis-pin-montreal { left: 79%; top: 63%; }
-.cis-pin-halifax { left: 89%; top: 68%; }
+.cis-pin-vancouver { left: 12.5%; top: 58.5%; }
+.cis-pin-calgary { left: 26.5%; top: 56.8%; }
+.cis-pin-winnipeg { left: 43%; top: 59%; }
+.cis-pin-toronto { left: 70%; top: 67.5%; }
+.cis-pin-ottawa { left: 73.5%; top: 64.8%; }
+.cis-pin-montreal { left: 77.8%; top: 63.8%; }
+.cis-pin-halifax { left: 87%; top: 65%; }
 
 @media (max-width: 720px) {
   .cis-map-interactive::before {
@@ -79,11 +81,11 @@
     background-position: center center;
   }
 
-  .cis-pin-vancouver { left: 11%; top: 54%; }
-  .cis-pin-calgary { left: 25%; top: 53%; }
-  .cis-pin-winnipeg { left: 42%; top: 55%; }
-  .cis-pin-toronto { left: 68%; top: 64%; }
-  .cis-pin-ottawa { left: 73%; top: 61%; }
-  .cis-pin-montreal { left: 79%; top: 59%; }
-  .cis-pin-halifax { left: 89%; top: 64%; }
+  .cis-pin-vancouver { left: 12%; top: 55.8%; }
+  .cis-pin-calgary { left: 26%; top: 54.2%; }
+  .cis-pin-winnipeg { left: 43%; top: 56.4%; }
+  .cis-pin-toronto { left: 69.5%; top: 64%; }
+  .cis-pin-ottawa { left: 73%; top: 61.3%; }
+  .cis-pin-montreal { left: 77.8%; top: 60.5%; }
+  .cis-pin-halifax { left: 87%; top: 61.8%; }
 }
