@@ -4,6 +4,7 @@ import InteractiveReportSite from "./components/InteractiveReportSite.jsx";
 import "./styles.css";
 import "./executive-report-additions.css";
 import "./interactive-report.css";
+import "./canada-map.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
